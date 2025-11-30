@@ -7,8 +7,7 @@ public class Main {
         var query = new CurrencyQuery();
 
         try {
-            String response = query.consultExchangeRateAPI("MXN");
-            System.out.println(response);
+            System.out.println("response");
         } catch (Exception e){
             System.out.println("Ocurrio un error: " + e.getMessage());
         }
